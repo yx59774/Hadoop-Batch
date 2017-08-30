@@ -14,3 +14,6 @@ so that developer can use getter/setter methods to operate fields in mapper/redu
 
 5) Integrate Hadoop Batch Framework with Spring Batch to provide more flexibility of configuration.
 
+# Data Structure
+Every record contains several fields, separated by "|", the first field is the file name (or record name), the file name (or record name) will be used by Customized InputFormat/Reducer to wrap/unwrap Text to Object. 
+
