@@ -15,7 +15,7 @@ public class Customer1Generator {
 		StringBuffer strBuf = new StringBuffer();
 		
 		//File hadoopText = new File("/home/hadoop/input/hadoopCustomer1.txt");
-		File hadoopText = new File("D:\\hadoopCustomer1.txt");
+		File hadoopText = new File("D:\\hadoopCustomerAccount.txt");
 		try {
 			
 		FileWriter  out=new FileWriter (hadoopText);
